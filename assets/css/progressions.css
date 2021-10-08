@@ -1,0 +1,102 @@
+/* Reset */
+* {
+  /* padding will not add to the ACTUALLY WIDTH OF THE BOX */
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+}
+/* Main Styling */
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+a {
+  text-decoration: none;
+}
+.heading {
+  font-size: 1rem;
+}
+h2 {
+  font-size: 1rem;
+}
+h6 {
+  text-align: center;
+  padding: 3px;
+  margin: 0px;
+  font-weight: 900;
+}
+/* Code for chord Progressions ********************************* */
+#chordProgressionDiv {
+  background-color: var(--primary-color);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.progressions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+  padding: 10px;
+  width: 98%;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.numOfTimes {
+  font-weight: 900;
+}
+.chordFlexWrapperTwo {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.progressionH1 {
+  margin-top: 70px;
+}
+.chordSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--chord-color);
+  border-radius: 25px;
+  margin: 2px;
+  padding: 5px;
+}
+.chordSection h5 {
+  text-align: center;
+}
+.chordSection h6 {
+  text-align: center;
+}
+.chordNoteDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.chordNoteDiv h6 {
+  text-align: center;
+}
+
+.noteChordInnerDiv {
+  /* min-width: 43px; */
+  /* min-width: 33px; */
+  /* max-height: 34px; */
+  border-radius: 50%;
+  background-color: white;
+  margin: 1px;
+  /* border-style: solid;
+  border-color: black;
+  border-width: 4px; */
+}
+@media print {
+  section {
+    page-break-after: always;
+  }
+}
