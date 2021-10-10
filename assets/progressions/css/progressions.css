@@ -84,6 +84,7 @@ h6 {
 
 .noteChordInnerDiv {
   line-height: 1rem;
+  min-width: 43px;
   border-radius: 50%;
   background-color: white;
   margin: 1px;

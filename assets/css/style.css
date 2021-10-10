@@ -15,13 +15,12 @@ body {
 a {
   text-decoration: none;
 }
-/* Create Variables */
-:root {
-  --primary-color: #0f0;
-  --secondary-color: #00f;
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-/* use Variables */
-h1 {
-  color: var(--primary-color);
-  text-shadow: 2px 2px var(--secondary-color);
+.noteName {
+  margin: 44px;
 }
