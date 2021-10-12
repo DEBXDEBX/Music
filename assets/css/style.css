@@ -15,12 +15,28 @@ body {
 a {
   text-decoration: none;
 }
-
+.headLine {
+  text-align: center;
+  margin: 70px 0px;
+}
 .flex {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
-.noteName {
-  margin: 44px;
+.noteDiv {
+  border-radius: 10px 10px 0px 0px;
+  margin: 11px;
+  padding: 44px;
+  background-color: blue;
+  transition: color 0.6s, box-shadow 0.7s, transform 0.7s;
+  transition-timing-function: cubic-bezier(0.45, 1.87, 0.62, 1.6);
+}
+.noteDiv:hover {
+  box-shadow: 5px 4px 9px black;
+  transform: scale(1.1);
+}
+.noteAnchor {
+  color: white;
 }
