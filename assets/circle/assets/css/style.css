@@ -15,11 +15,10 @@ a {
 }
 /* Create Variables */
 :root {
-  --primary-color: #ec10d2;
-  --secondary-color: #00e8ff;
+  --primary-color: #0d3bef;
+  --secondary-color: #7790b3;
   --chord-color: #26f20c;
 }
-
 h1 {
   text-align: center;
   padding: 10px;
