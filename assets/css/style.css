@@ -24,7 +24,6 @@ body {
 .navImage {
   width: 122px;
   border-radius: 30%;
-  margin-right: 30px;
 }
 .navContainer {
   display: flex;
@@ -70,19 +69,11 @@ a {
 #navbar ul li {
   padding: 1rem;
 }
-#navbar ul li:hover a {
+#navbar ul li:hover a.nav {
   color: #fff;
   border-bottom: 4px solid white;
 }
 
-#navbar a:hover {
-  color: #fff;
-  border-bottom: 4px solid white;
-}
 a {
   text-decoration: none;
-}
-.music {
-  color: white;
-  /* margin-left: 33px; */
 }
