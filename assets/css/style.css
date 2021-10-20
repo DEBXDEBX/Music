@@ -55,6 +55,7 @@ a {
 }
 #navbar ul {
   display: flex;
+  justify-content: center;
   align-items: center;
   list-style: none;
   margin: 0;
@@ -76,4 +77,16 @@ a {
 
 a {
   text-decoration: none;
+}
+@media screen and (max-width: 788px) {
+  #navbar {
+    flex-direction: column;
+  }
+  #navbar ul {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 304px) {
+  #navbar ul a.nav {
+    font-size: 0.8rem;
 }

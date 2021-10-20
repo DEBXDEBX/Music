@@ -50,6 +50,7 @@ a {
 
 #navbar ul {
   display: flex;
+  justify-content: center;
   align-items: center;
   list-style: none;
   margin: 0;
@@ -73,11 +74,6 @@ a {
   text-decoration: none;
 }
 
-.headLine {
-  color: var(--blue-color);
-  text-align: center;
-  margin: 70px 0px;
-}
 .flex {
   display: flex;
   justify-content: center;
@@ -86,6 +82,25 @@ a {
 }
 #navbar ul li a.active {
   color: white;
+}
+@media screen and (max-width: 788px) {
+  #navbar {
+    flex-direction: column;
+  }
+  #navbar ul {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 304px) {
+  #navbar ul a.nav {
+    font-size: 0.8rem;
+  }
+}
+
+.headLine {
+  color: var(--blue-color);
+  text-align: center;
+  margin: 70px 0px;
 }
 .noteDiv {
   border-radius: 10px 10px 0px 0px;
