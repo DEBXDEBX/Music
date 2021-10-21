@@ -19,6 +19,13 @@ body {
   --blue-color: #0d3bef;
 }
 
+/* Showcase */
+#showcase {
+  background: #333 url("../img/guitar.jpg") no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+}
+
 /* Nav Bar */
 
 .navImage {
@@ -89,4 +96,5 @@ a {
 @media screen and (max-width: 304px) {
   #navbar ul a.nav {
     font-size: 0.8rem;
+  }
 }
