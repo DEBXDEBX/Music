@@ -50,12 +50,16 @@ a {
 }
 #navbar ul li {
   padding: 1rem;
+  transition: transform 0.7s;
+  transition-timing-function: cubic-bezier(0.45, 1.87, 0.62, 1.6);
 }
 #navbar ul li:hover a.nav {
   color: #fff;
   border-bottom: 4px solid white;
 }
-
+#navbar ul li:hover {
+  transform: translateY(-10%);
+}
 a {
   text-decoration: none;
 }
